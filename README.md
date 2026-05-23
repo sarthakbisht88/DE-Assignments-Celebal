@@ -2,6 +2,11 @@
 # Open in Colab:[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]
 (https://colab.research.google.com/drive/1AKegraB-Yk6_gOaZ7u8m5BP23gVm7lZ2)
 
+## Note
+
+The dataset is loaded using a GitHub raw file link instead of a local file path. This ensures that the notebook runs successfully in any environment (such as Google Colab) without requiring manual file uploads during evaluation.
+
+
 ## Objective
 
 To perform basic data exploration and cleaning using Pandas on a shopping dataset.
