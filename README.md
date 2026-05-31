@@ -14,13 +14,10 @@ Data-Engineering-Assignments/
 └── ...
 ```
 
-## Open in Colab
-
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1AKegraB-Yk6_gOaZ7u8m5BP23gVm7lZ2)
 
 ## Note
 
-Some assignments load datasets using GitHub raw file links instead of local file paths. This ensures that notebooks can run successfully in environments such as Google Colab without requiring manual file uploads during evaluation.
+Some assignments load datasets using GitHub raw file links instead of local file paths. This ensures that notebooks can run successfully in environments such as Google Colab without requiring manual file uploads during evaluation. If the Jupyter file is not rendered by Github, try downloading it locally.
 
 ---
 
