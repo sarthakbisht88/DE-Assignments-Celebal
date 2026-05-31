@@ -22,7 +22,7 @@ Some assignments load datasets using GitHub raw file links instead of local file
 ---
 
 # Week 1 – Pandas Data Exploration and Data Cleaning
-
+Note: Github fails to render .ipynb files , to get access to week-1 output file download the file in week-1 folder
 ## Objective
 
 Perform basic data exploration and cleaning using Pandas on a shopping dataset.
