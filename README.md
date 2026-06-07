@@ -118,3 +118,80 @@ Superstore Sales Dataset
 * Query results
 * Business insights and validation checks
 
+---
+
+# Week 3 - SQL Sales Analysis Using Subqueries, CTEs, and Window Functions
+
+## Objective
+
+Analyze Superstore sales data using SQL concepts such as Subqueries, Common Table Expressions (CTEs), Window Functions, and Joins to solve business-related analytical queries.
+
+## Dataset
+
+* Sample Superstore Dataset
+* Imported into MySQL database
+* Raw table: `superstore_raw`
+
+## Tasks Performed
+
+### Data Preparation
+
+* Imported Superstore dataset into MySQL.
+* Created normalized tables:
+
+  * `customers`
+  * `orders`
+  * `products`
+* Populated tables using `SELECT DISTINCT`.
+
+### SQL Concepts Applied
+
+#### Subqueries
+
+* Orders with sales greater than average sales.
+* Highest sales order for each customer.
+
+#### Common Table Expressions (CTEs)
+
+* Total sales per customer.
+* Customers with above-average total sales.
+
+#### Window Functions
+
+* Customer ranking based on total sales.
+* Row numbering of orders within each customer.
+* Top customers based on sales.
+
+#### Combined Query
+
+* Used JOIN, CTE, and Window Function together to display:
+
+  * Customer Name
+  * Total Sales
+  * Customer Rank
+
+## Business Insights
+
+* Identified top-performing customers based on total sales.
+* Identified low-performing customers.
+* Found customers who placed only one order.
+* Determined customers with above-average sales.
+* Analyzed the highest order value for each customer.
+
+## Technologies Used
+
+* MySQL
+* MySQL Workbench
+* SQL
+
+## Files Included
+
+* `sales_analysis.sql` – Complete SQL script
+* `Sample-Superstore.csv` – Dataset
+* Screenshots/Results (if applicable)
+
+## Author
+
+Sarthak Bisht
+
+
