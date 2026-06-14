@@ -190,7 +190,7 @@ Analyze Superstore sales data using SQL concepts such as Subqueries, Common Tabl
 * `Sample-Superstore.csv` – Dataset
 * Screenshots/Results (if applicable)
 
-
+---
 # Week 4: Azure Cloud Fundamentals and Data Pipeline Implementation using ADF
 
 ## Objective
@@ -222,7 +222,7 @@ Built an end-to-end data pipeline using Azure Blob Storage and Azure Data Factor
 
 ## Outcome
 Successfully created and executed an Azure Data Factory pipeline that validates metadata and copies CSV data between Blob Storage locations.
-
+---
 ## Author
 
 Sarthak Bisht
