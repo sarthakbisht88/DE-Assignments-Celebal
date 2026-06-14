@@ -190,6 +190,39 @@ Analyze Superstore sales data using SQL concepts such as Subqueries, Common Tabl
 * `Sample-Superstore.csv` – Dataset
 * Screenshots/Results (if applicable)
 
+
+# Week 4: Azure Cloud Fundamentals and Data Pipeline Implementation using ADF
+
+## Objective
+Built an end-to-end data pipeline using Azure Blob Storage and Azure Data Factory to read, validate, and copy CSV data.
+
+## Tasks Completed
+
+### Azure Storage Setup
+- Created Azure Storage Account and Blob Container.
+- Uploaded `Sample-Superstore.csv` as source data.
+
+### Azure Data Factory
+- Created Azure Data Factory instance.
+- Created Blob Storage Linked Service.
+- Created source and destination CSV datasets.
+- Used Get Metadata activity for file validation.
+- Built pipeline using Copy Data activity.
+
+### Execution
+- Executed pipeline successfully using Debug mode.
+- Verified data transfer to destination location.
+- Assigned Reader and Contributor IAM roles.
+
+## Technologies Used
+- Azure Blob Storage
+- Azure Data Factory
+- Azure IAM
+- CSV Data Processing
+
+## Outcome
+Successfully created and executed an Azure Data Factory pipeline that validates metadata and copies CSV data between Blob Storage locations.
+
 ## Author
 
 Sarthak Bisht
