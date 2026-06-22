@@ -222,6 +222,62 @@ Built an end-to-end data pipeline using Azure Blob Storage and Azure Data Factor
 
 ## Outcome
 Successfully created and executed an Azure Data Factory pipeline that validates metadata and copies CSV data between Blob Storage locations.
+
+---
+
+# Week 5: Spark Data Processing using PySpark
+
+## Objective
+
+Understand Apache Spark fundamentals and perform data cleaning, transformation, and aggregation using Spark DataFrames.
+
+## Tasks Completed
+
+### Spark Fundamentals
+- Studied limitations of traditional MapReduce.
+- Understood Spark advantages:
+  - In-memory processing
+  - Faster computation
+  - DataFrame-based processing
+
+### Data Loading
+- Created and loaded a CSV dataset into a Spark DataFrame.
+- Explored:
+  - Data preview
+  - Column names
+  - Data types
+
+### Data Cleaning
+Performed cleaning operations:
+- Removed duplicate records.
+- Handled missing values using null handling techniques.
+- Checked inconsistent data.
+
+### Data Transformation
+Applied DataFrame transformations:
+- Filtered data based on conditions:
+  - Age range
+  - Category
+  - Region
+- Renamed columns.
+- Modified column data types.
+
+### Data Analysis
+Performed aggregations using:
+- count()
+- sum()
+- avg()
+- min()
+- max()
+
+Used:
+- groupBy() operations
+- Aggregated results analysis
+
+### Advanced Concepts
+- Wide transformations
+- Shuffle operations
+- Spark DataFrame immutability
 ---
 ## Author
 
