@@ -5,7 +5,7 @@ import os
 connection = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="YOUR_PASSWORD",
+    password="mummy",
     database="ecommerce_analytics"
 )
 cursor = connection.cursor()
