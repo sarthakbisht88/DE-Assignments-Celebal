@@ -1,0 +1,5 @@
+faker
+pandas
+numpy
+tabulate
+mysql-connector-python
